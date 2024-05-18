@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Danfo&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+
+ body{
+    /* this flex is to align very thing vetrically and horizantally to center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 40px;
+    /* this code for google font */
+    font-family: "Danfo", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+    "ELSH" 0;
+    /*To background the background color*/
+    background-color: azure;
+ }  
+
+.container{
+/* this flex is to give column a veritcal direction */
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin-top: 20px;
+    background-color: white;
+    
+}
+
+
+.squaredivs{
+    flex: 1;
+    /* this flex is to give row horizantal direction by flex-direction to column */
+    display: flex;
+    flex-direction: column;
+    
+}
+

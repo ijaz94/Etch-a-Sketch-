@@ -1,1 +1,5 @@
 # Etch-a-Sketch-
+For this project I use the aproach first create the 16 columns divs in the container div and position its direction vertically by the help of flex display to container then for each column I create 16 rows and give its horizantal direction with help flex display and flex direction to column in squaredivs class I use squaredivs class for both columns and rows.
+Then by project requirment I add event listner to Gridchanger button first remove the existing grid than create the new grid by user type number prompt.
+Also add button of grid cleaner which clean the grid when the background color grid change to its defult background color.
+This is the complete Etch a sketch odin project including extra credits like use random RGB color and increase the opacity by 0.1 with each interaction. 
